@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Run a one-line script
-        run: echo Hello, world! 
+        run: echo Hello, world! My name is Ítalo Alves Rabelo
         
       - name: Run a multi-line script
         run: |
