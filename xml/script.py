@@ -10,7 +10,7 @@ def get_xml():
     print (doc.firstChild.tagName)
     for music in tagName:
         adele = music.getAttribute("adele")
-        tags = music.getElementsByName('item')[0].childNodes[0].data
+        tags = music.getElementsByTagName('item')[0].childNodes[0].data
         print (adele)
         print (tags)
 
